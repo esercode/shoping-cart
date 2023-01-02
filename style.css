@@ -101,7 +101,9 @@ img {
 
 .ad-product {
   display: flex;
-
+  justify-content: space-between;
+  height: 40px ;
+  width: 150px;
   margin-top: 16px;
   margin-left: 180px;
 }
@@ -113,6 +115,13 @@ img {
   border-radius: 5px;
   border: none;
   background-color: #e0f2fa;
+}
+.ad-product button:hover{
+  opacity: 0.9;
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
+ 
 }
 
 .ad-product span {
@@ -163,7 +172,7 @@ img {
   color: #171d3c;
 }
 
-.total-vat {
+.total-kdv {
   position: relative;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -171,7 +180,7 @@ img {
   color: #171d3c;
 }
 
-.total-vat span {
+.total-kdv span {
   position: absolute;
   right: 68px;
   font-size: 16px;
@@ -217,4 +226,10 @@ img {
   color: white;
   margin-top: 32px;
   margin-left: 60px;
+}
+
+.btn:hover{
+
+opacity: 0.9;
+cursor: pointer;
 }

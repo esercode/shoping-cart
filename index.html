@@ -29,14 +29,14 @@
             </div>
         </div>
         <div class="ad-product">
-            <button>
+            <button class="btn-1" onclick="dencrement()">
                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6.19016 13.8322H21.4743" stroke="#171D3C" stroke-width="1.63758" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
             </button>
-            <span>1</span>
-            <button>
+            <span class="display">1</span>
+            <button class="btn-2"  onclick="increment()"">
                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13.5235 6.19016V21.4743" stroke="#171D3C" stroke-width="1.63758" stroke-linecap="round"
                         stroke-linejoin="round" />
@@ -49,8 +49,8 @@
 
         <div class="price-status">
             <div class="package">Standard package <span>FREE</span></div>
-            <div class="total-vat">Total VAT <span>879,-</span></div>
-            <div class="total-nok">Total NOK <span>4395,-</span></div>
+            <div class="total-kdv">Total KDV <span>100 TRY</span></div>
+            <div class="total-nok">Total PRİCE <span>1000 TRY</span></div>
             <div class="link">
                 <a href="http://" target="_blank">Got a gift card or a promotional code?</a>
             </div>
@@ -58,6 +58,8 @@
         <button class="btn">Checkout</button>
     </div>
     <div class="shadow-cart"></div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
